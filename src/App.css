@@ -1,0 +1,26 @@
+.App{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    
+}
+
+.github-user-container{
+    width: 500px;
+    border-radius: 5px;
+    padding: 15px;
+    border: 1px solid #dedede;
+    min-height: 400px;
+}
+
+.github-user-form{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.github-user-form h6{
+    margin-bottom: 0;
+    color: #666666;
+}
