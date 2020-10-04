@@ -16,13 +16,13 @@ query ($userName: String!){
               }
         }
       }
-      followers(first: 10) {
+      followers(first: 100) {
           totalCount
           nodes {
             login
           }
         }
-        following(first: 10) {
+        following(first: 100) {
           totalCount
           nodes {
             login
